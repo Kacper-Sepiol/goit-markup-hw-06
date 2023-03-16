@@ -889,10 +889,18 @@ body {
     height: 50px;
     margin-left: 12px;
     background-color: var(--acent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.form-button-title {
     font-weight: 700;
     font-size: 16px;
     color: var(--buttons-port-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    display: flex;
-    padding: 12px 12px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 42px;
+}
+
+.form-email:placeholder-shown {
+    padding-left: 16px;
 }
