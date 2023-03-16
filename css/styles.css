@@ -13,7 +13,7 @@
     --logo-color-text: #000000;
     --buttons-port-color: #f5f4fa;
     --footer-text-color: rgba(255, 255, 255, 0.6);
-    --backgrokund-footer-color: #2f303a;
+    --background-footer-color: #2f303a;
     --background-section: #e5e5e5;
     --line-color: #ececec;
     --background-color: #ffffff;
@@ -870,4 +870,26 @@ body {
     border-radius: 50px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+}
+
+.form-email {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 358px;
+    height: 50px;
+    background-color: var(--background-footer-color);
+    border-radius: 4px;
+}
+
+.form {
+    display: flex;
+}
+
+.form-button {
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    background-color: var(--acent-color);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--buttons-port-color);
 }
