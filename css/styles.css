@@ -985,3 +985,11 @@ body {
 .form-input:checked + .form-label {
     color: var(--acent-colr);
 }
+
+.first-icon-modal {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
