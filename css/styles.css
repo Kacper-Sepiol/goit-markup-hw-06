@@ -904,3 +904,34 @@ body {
 .form-email:placeholder-shown {
     padding-left: 16px;
 }
+
+.modal-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form-input-title {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--ouwer-text-color);
+}
