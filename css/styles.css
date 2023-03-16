@@ -959,10 +959,29 @@ body {
 }
 
 .form-input-statute {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 55px;
 }
 
 .list-statute {
     color: #2196f3;
+}
+
+.form-input-statute-title {
+    color: var(--ouwer-text-color);
+    margin-left: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.form-button-service {
+    width: 200px;
+    height: 50px;
+    background-color: var(--acent-color);
+    margin-top: 30px;
+    margin-left: 164px;
+}
+
+.form-input:checked + .form-label {
+    color: var(--acent-colr);
 }
