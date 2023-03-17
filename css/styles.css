@@ -923,6 +923,7 @@ body {
     border-radius: 4px;
     padding-left: 42px;
     padding-right: 406;
+    outline: none;
 }
 
 .form-label {
@@ -990,8 +991,8 @@ body {
     color: var(--secondary-text-color);
 }
 
-.form-input:checked + .form-label {
-    color: var(--acent-colr);
+.form-input:focus-within {
+    border-color: var(--acent-color);
 }
 
 .first-icon-modal {
@@ -1000,6 +1001,10 @@ body {
     left: 55px;
     width: 12px;
     height: 12px;
+}
+
+.first-icon-modal:hover {
+    fill: red;
 }
 
 .two-icon-modal {
