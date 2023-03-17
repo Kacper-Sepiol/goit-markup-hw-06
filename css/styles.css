@@ -994,3 +994,9 @@ body {
     top: 119px;
     left: 55px;
 }
+
+.two-icon-modal {
+    position: absolute;
+    left: 55px;
+    top: 201px;
+}
