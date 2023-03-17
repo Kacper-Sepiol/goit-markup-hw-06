@@ -992,7 +992,6 @@ body {
 }
 
 .form-input:focus-within {
-    border-color: var(--acent-color);
 }
 
 .first-icon-modal {
