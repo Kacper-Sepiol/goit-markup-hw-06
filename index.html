@@ -846,18 +846,22 @@
                             justify-content: center;
                         "
                     >
-                        <input
-                            type="checkbox"
-                            name="statute"
-                            value="statute"
-                            class="form-input-statute"
-                        />
-                        <span class="form-input-statute-title">
+                        <input type="checkbox" class="form-input-statute" />
+                        <span class="form-input-statute-icon">
+                            <svg style="position: absolute; top: 4; left: 2">
+                                <use
+                                    width="11"
+                                    height="8"
+                                    href="./images/icons.svg#icon-confirmation"
+                                ></use>
+                            </svg>
+                        </span>
+                        <p class="form-input-statute-title">
                             Oświadczam iż akceptuję
                             <a href="#" class="link-statute">Regulamin</a> i
                             <a href="#" class="link-statute">Politykę</a>
                             Prywatności.
-                        </span>
+                        </p>
                     </label>
 
                     <button type="submit" class="form-button-service">
